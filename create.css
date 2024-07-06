@@ -1,0 +1,141 @@
+.main{
+    font-size: 45px;
+    font-style:italic;
+    color:#fdfdff
+}
+header{
+    background-color: #1a1f48;
+    padding-top: 7px;
+    
+}
+.container{
+    display: flex;
+    gap:5px;
+    padding: 1px 10px;
+}
+.left{
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    
+}
+.left div{
+ color: #fdfdff;
+ 
+}
+
+#headerText{
+    text-align: center;
+    color: #fdfdff;
+}
+
+#title{
+    margin-top: 36px;
+    width: 100%; 
+    padding: 10px;
+    font-size: 25px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+.content{
+    display: flex;
+    gap:5px;
+    padding: 1px 10px;
+
+}
+
+.card{
+    margin-top: 36px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 12px 12px; 
+}
+.cardHeader{
+    border-bottom: 1px gray solid;
+    color: grey;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 3px;
+}
+.cardNum{
+    align-self: flex-start;
+    justify-self: flex-start;
+    margin-left: 0%;
+    margin-right: auto;
+}
+.delete{
+    width: 5%;
+    height: 5%;
+    max-width: 21.25px;
+    max-height: 21.25px;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 0%;
+}
+.card .row{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+textarea{
+    width: 100%;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    word-wrap: break-word;
+}
+
+#addCard{
+    margin-top: 36px;
+    background-color:white;
+    border: 1.5px white solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 12px 12px;
+    height: 103px;
+    border-radius: 0.25rem;
+    font-size: 1.2rem;
+    transition: 0.5s;
+}
+#createBtn{
+    flex-flow: row;
+    justify-content: flex-end;
+    color: rgb(9, 9, 9);
+    margin-top: 36px;
+    background-color: ;
+    border: 1.5px white solid;
+    padding: 12px 12px;
+    border-radius: 0.25rem;
+    width: 10rem;
+    transition: 0.5s;
+    font-size: large;
+    font-style: bold;
+}
+#addCard:hover, #createBtn:hover{
+    background-color: rgb(107, 105, 100);
+    border:1.5px rgb(255, 255, 253) solid;
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+    
+}
+#createBtn:hover{
+    transform: scale(1.1);
+}
+#createDiv{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
